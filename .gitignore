@@ -129,4 +129,6 @@ dmypy.json
 
 .vscode/
 
+# Coverage settings
 .htmlcov/
+.coverage
