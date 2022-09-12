@@ -9,7 +9,7 @@ jobs:
       matrix:
         python-version: ["3.10"]
 
-    steps:
+    steps: 
       - uses: actions/checkout@v3
 
       - name: Set up Python ${{ matrix.python-version }}
@@ -22,6 +22,6 @@ jobs:
           python -m pip install --upgrade pip
 
       - name: Testing Codes
-        runs:
+        runs: |
           python -m pip install nose2 coverage
           nose2 -v --with-coverage 
