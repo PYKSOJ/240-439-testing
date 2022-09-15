@@ -1,6 +1,6 @@
 def fizz_buzz(number):
     if number % 3 == 0 and number % 5 == 0:
-        test("FizzBuzz")
+        print("FizzBuzz")
         test = True 
     elif number % 3 == 0:
         print("Fizz")
