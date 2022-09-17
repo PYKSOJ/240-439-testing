@@ -1,6 +1,4 @@
-
-from cgi import test
-from production.fizz_buzz import fizz_buzz
+from src.fizz_buzz import fizz_buzz
 
 import unittest
 
