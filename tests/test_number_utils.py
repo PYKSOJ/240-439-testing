@@ -1,5 +1,5 @@
 from re import S
-from production.number_utils import is_prime_list
+from src.number_utils import is_prime_list
 
 import unittest
 
