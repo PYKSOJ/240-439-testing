@@ -1,7 +1,7 @@
 import unittest
 from src.two_character import two_characters
 
-class test_two_character(unittest.TestCase):
+class testTwoCharacter(unittest.TestCase):
     def test_give_haveaniceday_return_5(self):
         text = 'haveaniceday'
         expect = 5

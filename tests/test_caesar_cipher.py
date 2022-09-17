@@ -1,7 +1,7 @@
 import unittest
 from src.caesar_cipher import caesar_cipher
 
-class test_caesar_cipher(unittest.TestCase):
+class TestCaesarCipher(unittest.TestCase):
     def test_give_a_to_z_step_3(self):
         text = 'abcdefghijklmnopqrstuvwxyz'
         step = 3
