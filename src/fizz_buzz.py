@@ -1,13 +1,12 @@
 def fizz_buzz(number):
-    if number % 3 == 0 and number % 5 == 0:
-        print("FizzBuzz")
-        test = True 
+    if number == 0 :
+        test = "Out of Range"
+    elif number % 3 == 0 and number % 5 == 0:
+        test = 'FizzBuzz'
     elif number % 3 == 0:
-        print("Fizz")
-        test = True 
+        test ='Fizz'
     elif number % 5 == 0:
-        print("Buzz")
-        test = True
-    else:  
-        test = False
+        test = "Buzz"
+    else:
+        test = "Out of Range"
     return test 
