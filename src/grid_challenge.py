@@ -6,7 +6,7 @@ def grid_challenge(grid) -> str:
     # sorted row
     for row in grid:
         grid_tmp.append(sorted(row))
-    
+
     # check col
     if len(grid_tmp) > 0:
         for i in range(len(grid_tmp[0])):

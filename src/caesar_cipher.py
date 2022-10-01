@@ -13,5 +13,4 @@ def caesar_cipher(text, step):
         if index >= 0:
             new_char = encrypt_map[index]
         encrypt += new_char
-    
     return encrypt

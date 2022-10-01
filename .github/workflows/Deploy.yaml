@@ -1,4 +1,4 @@
-name: Delpoy
+name: Deploy
 
 on: [push]
 
